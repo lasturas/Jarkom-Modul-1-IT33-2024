@@ -5,6 +5,7 @@ Dikerjakan Oleh:
 2. Ricko Mianto Jaya Saputra (5027231031)
 
 ## Advance Sanity Check
+Pertama tama, saya mengfilter agar yang hanya http yang ditampilkan, karena jika dilihat sekilah paket dengan http memiliki kata kata yang merujuk pada flag
 ![Screenshot (205)](https://github.com/user-attachments/assets/ad25248d-1a9f-4a63-bfed-325a9d1e1c5b)
 
 ![Screenshot (189)](https://github.com/user-attachments/assets/4dce6f3a-f17b-4e51-8466-08a9b9326948)
