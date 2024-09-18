@@ -1,4 +1,4 @@
-# Laporan-Resmi-Jarkom-Modul-1-Kelompok-IT33
+# Write Up-Jarkom-Modul-1-Kelompok-IT33
 
 Dikerjakan Oleh:
 1. Tsaldia Hukma Cita (5027231036)
