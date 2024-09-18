@@ -9,7 +9,7 @@ Pertama tama, saya mengfilter agar yang hanya http yang ditampilkan, karena jika
 ![Screenshot (205)](https://github.com/user-attachments/assets/ad25248d-1a9f-4a63-bfed-325a9d1e1c5b)
 Pada paket dengan info upload.php yang pertama kita dapat menemukan data username dan password
 ![Screenshot (189)](https://github.com/user-attachments/assets/4dce6f3a-f17b-4e51-8466-08a9b9326948)
-Lalu pada paket dengan info upload.php yang kedua kita mendapat data 
+Lalu pada paket dengan info upload.php yang kedua kita mendapat data filename beserta extension nya, di paket ini juga terdapat sebuah intruksi untuk diikuti agar menemukan sebuah kode
 ![Screenshot (190)](https://github.com/user-attachments/assets/c0f7baa4-9852-444f-abec-74fe5abf6287)
 
 ![Screenshot (202)](https://github.com/user-attachments/assets/2dde50b3-80e0-4334-a9c6-2fe50aa09ebb)
