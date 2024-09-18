@@ -11,14 +11,15 @@ Pada paket dengan info upload.php yang pertama kita dapat menemukan data usernam
 ![Screenshot (189)](https://github.com/user-attachments/assets/4dce6f3a-f17b-4e51-8466-08a9b9326948)
 Lalu pada paket dengan info upload.php yang kedua kita mendapat data filename beserta extension nya, di paket ini juga terdapat sebuah intruksi untuk diikuti agar menemukan sebuah kode
 ![Screenshot (190)](https://github.com/user-attachments/assets/c0f7baa4-9852-444f-abec-74fe5abf6287)
-
+Seperti yang telah diintruksikan saya mengecek peraturan soal shift dan mengcopy code yang diselipkan pada halaman ppt tersebut
 ![Screenshot (202)](https://github.com/user-attachments/assets/2dde50b3-80e0-4334-a9c6-2fe50aa09ebb)
-
+Setelah itu saya mendecode kode yang saya temukan menggunakan decoder online untuk menemukan pesan rahasia yang tersimpan
 ![Screenshot (192)](https://github.com/user-attachments/assets/3bf26c6c-c966-4bba-804e-4ed908838934)
-
+Setelah semua data terkumpul, saya menginputkan semua data data yang tersedia untuk mendapatkan flagnya
 ![Screenshot (188)](https://github.com/user-attachments/assets/243c36b6-5ea3-4e44-96bd-2ab1530d1a1d)
 
 ## Illegal Breakthrough
+
 ![Screenshot (197)](https://github.com/user-attachments/assets/f5530dce-1140-4fe1-9432-e0ba369a20b4)
 
 ![Screenshot (198)](https://github.com/user-attachments/assets/8f7fa64a-6e16-42e4-9f07-77c1edffc931)
