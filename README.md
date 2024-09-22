@@ -128,5 +128,12 @@ Karena filenya sama dengan corporate breach maka kita akan melakukan ncat 10.15.
 - setelah melakukan filter saya menemukan stream yang memiliki info login successful dan memfollow stream tersebut, stream dapat ditemukan dengan melakukan filter tcp.stream eq 3. Berikut ini stream
   ![image](https://github.com/user-attachments/assets/f27b99ae-7779-4eaf-8ea4-072705814320)
 - pada isi file tersebut dapat terlihat bahwa setelah success melakukan login terdapat file yang dikirim yaitu, Sh1k4.jpg yang merupakan jawaban untuk pertanyaan nc
-- Untuk step selanjutya saya belum bisa menyelesaikan karena server tidak bisa terhubung pada jam 23.11
-  ![image](https://github.com/user-attachments/assets/73e08203-4be5-435a-9fcf-980ffaf91ac5)
+- pertanyaan selanjutnya adalah isi pesan yang dikirim, untuk bisa menjawab ini kita harus export file yang dikirim dengan cara yang sama ketika kita export file pada soal stegography. Setelah itu buka file dan akan muncul tulisan "NUN" di dalam foto yang dikirim
+  ![Screenshot (234)](https://github.com/user-attachments/assets/c11d13a1-1e48-4d15-8643-6660915cb09f)
+- pertanyaan selanjutnya menanyakan tentang pada stream keberapa file kedua dikirim, kita bisa tahu bahwa file kedua yang dikirim adalah noko.py ketika kita export file Sh1ka.jpg. Untuk mencari streamnya kita bisa melakukan follow pada stream yang memiliki info noko.py, yaitu stream 141
+![Screenshot (237)](https://github.com/user-attachments/assets/79a36455-9c0e-434e-8258-881323c6d104)
+![Screenshot (235)](https://github.com/user-attachments/assets/b3bc2162-493e-4261-85aa-6a41c30ba489)
+- selajutnya kita ditanyakan mengenai nama asli pengirim, kita bisa mendapatkan info nama pengirim dengan export noko.py dan membukanya, lalu kita akan mendapat pesan angka dan lakukan decode menggunakan binary dan kita akan tahu bahwa nama pengirim adalah Torako Koshi dan kita akan mendapatkan flagnya JarkomIT{Sh1k4n0ko_N0_k05h1tan_zHVlQ8ioSxATneEnUiaMnawv77An2TYmgDnlIGIpXZv6qHYJXoZF5UNU}
+  ![Screenshot (236)](https://github.com/user-attachments/assets/af406d30-de92-4c5d-a78b-a4feecca4932)
+![image](https://github.com/user-attachments/assets/d00c2450-94d2-4b7f-b251-f39046d5bd41)
+
