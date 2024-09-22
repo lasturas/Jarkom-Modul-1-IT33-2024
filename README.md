@@ -112,3 +112,12 @@ Karena filenya sama dengan corporate breach maka kita akan melakukan ncat 10.15.
 - ![image](https://github.com/user-attachments/assets/d0a64083-79fa-41af-822c-60ac13240938)
 
 
+## Stegography 
+- perta lakukan uzip pada file yang ada, dan buka packetnya. Setelah dilakukan scroll dan analisis kita akan menemukan stream dengan protocol FTP-DATA yang memiliki info TKTI.png. Oleh karena itu lakukanlah filter dengan search ftp contains "png" dan akan meuncul hasil 13 protocol yang sesuai seperti gambar di bawah
+  ![image](https://github.com/user-attachments/assets/b74c5040-790f-4f2e-a24a-057ce7f79a08)
+- setelah itu untuk mempermudah maka export stream dengan memilih menu file -> export objects -> FTP-DATA lalu pilih save all
+  ![image](https://github.com/user-attachments/assets/16022b43-171a-488b-84bf-3fef432eb7ba)
+- setelah itu dengan bantuan file reversed.py yang sudah tersedia di file zip kita bisa menemukan foto mana yang mengandung pesan, yaitu pada file ATP.png EH.png dan KJK.png pesannya pahlawan keamanan siber
+![image](https://github.com/user-attachments/assets/f954f5ca-a421-49e3-b073-1f558b43b272)
+![image](https://github.com/user-attachments/assets/dfe62940-cf1c-473f-9fc5-1a46f053d9e9)
+- setelah itu kita dapatkan flagnya yaitu JarkomIT{S3LaM4t_p4rA_PahL4WaN_dZSdjV2xxBehBCXJhePulmKYUP5s0CTqPJsvCAcfrdVbPGLhVfzdXhC5}
