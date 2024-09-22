@@ -118,6 +118,6 @@ Karena filenya sama dengan corporate breach maka kita akan melakukan ncat 10.15.
 - setelah itu untuk mempermudah maka export stream dengan memilih menu file -> export objects -> FTP-DATA lalu pilih save all
   ![image](https://github.com/user-attachments/assets/16022b43-171a-488b-84bf-3fef432eb7ba)
 - setelah itu dengan bantuan file reversed.py yang sudah tersedia di file zip kita bisa menemukan foto mana yang mengandung pesan, yaitu pada file ATP.png EH.png dan KJK.png pesannya pahlawan keamanan siber
-![image](https://github.com/user-attachments/assets/f954f5ca-a421-49e3-b073-1f558b43b272)
 ![image](https://github.com/user-attachments/assets/dfe62940-cf1c-473f-9fc5-1a46f053d9e9)
+![image](https://github.com/user-attachments/assets/f954f5ca-a421-49e3-b073-1f558b43b272)
 - setelah itu kita dapatkan flagnya yaitu JarkomIT{S3LaM4t_p4rA_PahL4WaN_dZSdjV2xxBehBCXJhePulmKYUP5s0CTqPJsvCAcfrdVbPGLhVfzdXhC5}
