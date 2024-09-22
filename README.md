@@ -121,3 +121,12 @@ Karena filenya sama dengan corporate breach maka kita akan melakukan ncat 10.15.
 ![image](https://github.com/user-attachments/assets/dfe62940-cf1c-473f-9fc5-1a46f053d9e9)
 ![image](https://github.com/user-attachments/assets/f954f5ca-a421-49e3-b073-1f558b43b272)
 - setelah itu kita dapatkan flagnya yaitu JarkomIT{S3LaM4t_p4rA_PahL4WaN_dZSdjV2xxBehBCXJhePulmKYUP5s0CTqPJsvCAcfrdVbPGLhVfzdXhC5}
+
+## 22 Nightmare
+- setelah saya buka file dan melakukan ncat , saya mencoba untuk memfilter http tetapi ternyata kosong, lalu saya menfilter tcp dan menemukan sebuah stream dengan protocol ftp yang memiliki info user: ruse. Karena informasi pada soal memiliki hubungan dengan rusa maka saya mencoba untuk melakukan filter protocol ftp
+![image](https://github.com/user-attachments/assets/b1b70488-44cf-45ec-87af-f6d964ebefd3)
+- setelah melakukan filter saya menemukan stream yang memiliki info login successful dan memfollow stream tersebut, stream dapat ditemukan dengan melakukan filter tcp.stream eq 3. Berikut ini stream
+  ![image](https://github.com/user-attachments/assets/f27b99ae-7779-4eaf-8ea4-072705814320)
+- pada isi file tersebut dapat terlihat bahwa setelah success melakukan login terdapat file yang dikirim yaitu, Sh1k4.jpg yang merupakan jawaban untuk pertanyaan nc
+- Untuk step selanjutya saya belum bisa menyelesaikan karena server tidak bisa terhubung pada jam 23.11
+  ![image](https://github.com/user-attachments/assets/73e08203-4be5-435a-9fcf-980ffaf91ac5)
