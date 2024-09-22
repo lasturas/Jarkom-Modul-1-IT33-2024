@@ -96,3 +96,17 @@ Karena filenya sama maka kita bisa langsung melakukan ncat 10.15.42.60 62000 dan
 ![Screenshot (229)](https://github.com/user-attachments/assets/7b138402-6b87-4cd4-bed2-ba5397aaabc0)
 ![Screenshot (230)](https://github.com/user-attachments/assets/90e1c2ec-fbda-4a7e-a6a0-da2f35b536f2)
 
+# REVISI 
+## Malicious Code
+Karena filenya sama dengan corporate breach maka kita akan melakukan ncat 10.15.42.60 52000. 
+- untuk mencari jumlah total attempt attacker melakukan dir listing dapat dicari dengan melakukan filter http.request.method == "GET", lalu untuk menghitungnya bisa dengan memilih menu statistic -> protocol hierarcy dan akan muncul total attempnya adalah 52
+![image](https://github.com/user-attachments/assets/d9b5e3a8-4272-437c-bd2f-baa61ea2bd94)
+- untuk endpoint dapat ditemukan pada info stream, yaitu /index.php
+![image](https://github.com/user-attachments/assets/aabee623-f2b3-4ee3-9584-2663734e6117)
+- untuk pertanyaan attempt ke berapa attacker menemukan email dan password yang benar dapat ditemukan pada tcp.stream eq 218, yaitu 153 
+![image](https://github.com/user-attachments/assets/3a14f675-a7fe-47c7-be50-33cc5bad9ea1)
+- untuk mencari jawaban dari pertanyaan sang attacker dapat ditemukan pada stream setelah stream di atas, yaitu dapat dicari pada tcp.stream eq 221. Didalam stream kita akan menemukan kode angka yang nantinya akan menunjukkan pertanyaan seperti berikut ini. Dan untuk jawabannya adalah merah 
+![image](https://github.com/user-attachments/assets/0abedeb2-f266-44ac-88ee-5a0b9df372fc)
+![image](https://github.com/user-attachments/assets/b98a183c-f3ef-4eb0-9356-8a947a1cc9bd)
+- maka ditemukan flagnya, yaitu JarkomIT{s3cr3t_m3ss4ge_fr0m_4uth0r_jCWmKXovsk8H3T8Yi8Nc0e2Q4C05nBktEHryBrzR3Rfa1Vu0uFjyL0R}
+- ![image](https://github.com/user-attachments/assets/d0a64083-79fa-41af-822c-60ac13240938)
