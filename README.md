@@ -110,3 +110,5 @@ Karena filenya sama dengan corporate breach maka kita akan melakukan ncat 10.15.
 ![image](https://github.com/user-attachments/assets/b98a183c-f3ef-4eb0-9356-8a947a1cc9bd)
 - maka ditemukan flagnya, yaitu JarkomIT{s3cr3t_m3ss4ge_fr0m_4uth0r_jCWmKXovsk8H3T8Yi8Nc0e2Q4C05nBktEHryBrzR3Rfa1Vu0uFjyL0R}
 - ![image](https://github.com/user-attachments/assets/d0a64083-79fa-41af-822c-60ac13240938)
+
+
